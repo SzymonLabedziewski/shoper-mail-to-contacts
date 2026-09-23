@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/message-raw.json",
+  "title": "MessageRaw",
+  "description": "Incoming mail after MIME decode. body = bodyFull with quoted history removed. Skip From == mailbox user.",
+  "type": "object",
+  "properties": {
+    "folder": { "type": "string" },
+    "folderKind": { "type": "string" },
+    "folderLabel": { "type": "string" },
+    "uid": { "type": "string" },
+    "messageId": { "type": "string" },
+    "date": { "type": "string" },
+    "subject": { "type": "string" },
+    "fromName": { "type": "string" },
+    "fromEmail": { "type": "string" },
+    "toRaw": { "type": "string" },
+    "bodyFull": { "type": "string" },
+    "body": { "type": "string" }
+  },
+  "required": ["folder", "uid", "fromEmail", "body"]
+}

@@ -1,0 +1,3 @@
+INBOX
+INBOX.Sent
+INBOX.Trash

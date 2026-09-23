@@ -1,0 +1,27 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kowalski;Jan;;;
+FN:Jan Kowalski
+EMAIL:jan.kowalski@example.com
+TEL:500100200
+ADR:;;ul. Przykładowa 1;Warszawa;;00-001;Polska
+NOTE:Zamowienia: 1001
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Nowak;Anna;;;
+FN:Anna Nowak
+ORG:Example Sp. z o.o.
+EMAIL:anna.nowak@example.com
+EMAIL:biuro@example.com
+TEL:221002030
+ADR:;;ul. Firmowa 8;Warszawa;;00-002;Polska
+NOTE:NIP: 5252345675\nZamowienia: 1002
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Zieliński;Piotr;;;
+FN:Piotr Zieliński
+EMAIL:piotr.zielinski@example.com
+TEL:501200300
+END:VCARD

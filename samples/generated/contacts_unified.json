@@ -1,0 +1,178 @@
+{
+    "exportedAt":  "2026-09-23T14:52:31.0152271+02:00",
+    "contactCount":  3,
+    "contacts":  [
+                     {
+                         "id":  "C0001",
+                         "firstname":  "Jan",
+                         "surname":  "Kowalski",
+                         "personNames":  [
+                                             "Jan Kowalski"
+                                         ],
+                         "emails":  [
+                                        "jan.kowalski@example.com"
+                                    ],
+                         "phones":  [
+                                        "500100200"
+                                    ],
+                         "organization":  "",
+                         "nip":  "",
+                         "nips":  [
+
+                                  ],
+                         "companyAliases":  [
+
+                                            ],
+                         "address":  {
+                                         "street":  "ul. Przykładowa 1",
+                                         "zip":  "00-001",
+                                         "city":  "Warszawa",
+                                         "country":  "Polska",
+                                         "region":  ""
+                                     },
+                         "orderIds":  [
+                                          "1001"
+                                      ],
+                         "sources":  [
+                                         {
+                                             "folder":  "INBOX",
+                                             "uid":  "order-1001-shoper",
+                                             "orderNo":  "1001",
+                                             "kind":  "",
+                                             "hash":  "",
+                                             "match":  "",
+                                             "fromEmail":  "",
+                                             "folderKind":  "",
+                                             "folderLabel":  ""
+                                         },
+                                         {
+                                             "folder":  "",
+                                             "uid":  "",
+                                             "orderNo":  "",
+                                             "kind":  "signature",
+                                             "hash":  "d1d076906418b15d37978df446b75fa3c2def6adafc99a25f1ee1fd2b4f683f8",
+                                             "match":  "email",
+                                             "fromEmail":  "jan.kowalski@example.com",
+                                             "folderKind":  "inbox",
+                                             "folderLabel":  ""
+                                         }
+                                     ],
+                         "mergeFlags":  [
+                                            "fromSignature"
+                                        ],
+                         "notes":  "Zamowienia: 1001"
+                     },
+                     {
+                         "id":  "C0002",
+                         "firstname":  "Anna",
+                         "surname":  "Nowak",
+                         "personNames":  [
+                                             "Anna Nowak"
+                                         ],
+                         "emails":  [
+                                        "anna.nowak@example.com",
+                                        "biuro@example.com"
+                                    ],
+                         "phones":  [
+                                        "221002030"
+                                    ],
+                         "organization":  "Example Sp. z o.o.",
+                         "nip":  "5252345675",
+                         "nips":  [
+                                      "5252345675"
+                                  ],
+                         "companyAliases":  [
+
+                                            ],
+                         "address":  {
+                                         "street":  "ul. Firmowa 8",
+                                         "zip":  "00-002",
+                                         "city":  "Warszawa",
+                                         "country":  "Polska",
+                                         "region":  ""
+                                     },
+                         "orderIds":  [
+                                          "1002"
+                                      ],
+                         "sources":  [
+                                         {
+                                             "folder":  "INBOX",
+                                             "uid":  "order-1002-shoper",
+                                             "orderNo":  "1002",
+                                             "kind":  "",
+                                             "hash":  "",
+                                             "match":  "",
+                                             "fromEmail":  "",
+                                             "folderKind":  "",
+                                             "folderLabel":  ""
+                                         },
+                                         {
+                                             "folder":  "",
+                                             "uid":  "",
+                                             "orderNo":  "",
+                                             "kind":  "signature",
+                                             "hash":  "e72d99f4c973eb1792ef2864e3ebb654ca86606c7b7843caa6973db1842c3808",
+                                             "match":  "email",
+                                             "fromEmail":  "anna.nowak@example.com",
+                                             "folderKind":  "inbox",
+                                             "folderLabel":  ""
+                                         }
+                                     ],
+                         "mergeFlags":  [
+                                            "fromSignature",
+                                            "multiEmail"
+                                        ],
+                         "notes":  "NIP: 5252345675\nZamowienia: 1002"
+                     },
+                     {
+                         "id":  "S0001",
+                         "firstname":  "Piotr",
+                         "surname":  "Zieliński",
+                         "personNames":  [
+                                             "Piotr Zieliński"
+                                         ],
+                         "emails":  [
+                                        "piotr.zielinski@example.com"
+                                    ],
+                         "phones":  [
+                                        "501200300"
+                                    ],
+                         "organization":  "",
+                         "nip":  "",
+                         "nips":  [
+
+                                  ],
+                         "companyAliases":  [
+
+                                            ],
+                         "address":  {
+                                         "street":  "",
+                                         "zip":  "",
+                                         "city":  "",
+                                         "country":  "Polska",
+                                         "region":  ""
+                                     },
+                         "orderIds":  [
+
+                                      ],
+                         "sources":  [
+                                         {
+                                             "folder":  "",
+                                             "uid":  "",
+                                             "orderNo":  "",
+                                             "kind":  "signature",
+                                             "hash":  "faa4f86a2d00a933a6a220bb4e5247901207acbfc91d5768eb9a2f3bddd7e4a2",
+                                             "match":  "new",
+                                             "fromEmail":  "piotr.zielinski@example.com",
+                                             "folderKind":  "inbox",
+                                             "folderLabel":  ""
+                                         }
+                                     ],
+                         "mergeFlags":  [
+                                            "fromSignature",
+                                            "newContact"
+                                        ],
+                         "notes":  ""
+                     }
+                 ]
+}

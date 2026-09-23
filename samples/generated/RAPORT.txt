@@ -1,0 +1,5 @@
+orders=2
+contacts=3
+messages=3
+signatures_rules=3
+signatures_ai_queue=0

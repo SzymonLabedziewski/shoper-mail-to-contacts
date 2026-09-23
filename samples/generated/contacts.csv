@@ -1,0 +1,4 @@
+﻿"id","firstname","surname","emails","phones","organization","nip","street","zip","city","notes"
+"C0001","Jan","Kowalski","jan.kowalski@example.com","500100200","","","ul. Przykładowa 1","00-001","Warszawa","Zamowienia: 1001"
+"C0002","Anna","Nowak","anna.nowak@example.com; biuro@example.com","221002030","Example Sp. z o.o.","5252345675","ul. Firmowa 8","00-002","Warszawa","NIP: 5252345675 | Zamowienia: 1002"
+"S0001","Piotr","Zieliński","piotr.zielinski@example.com","501200300","","","","","",""

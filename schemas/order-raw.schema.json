@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/order-raw.json",
+  "title": "OrderRaw",
+  "description": "One parsed shop-order email. camelCase. NIP must pass Polish checksum or be empty.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "orderNo": { "type": "string" },
+    "subject": { "type": "string" },
+    "folder": { "type": "string" },
+    "uid": { "type": "string" },
+    "clientName": { "type": "string" },
+    "personName": { "type": "string" },
+    "firstname": { "type": "string" },
+    "surname": { "type": "string" },
+    "email": { "type": "string" },
+    "phone": { "type": "string", "description": "Digits only, national format without +48" },
+    "companyRaw": { "type": "string" },
+    "nip": { "type": "string", "pattern": "^([0-9]{10})?$" },
+    "zip": { "type": "string" },
+    "city": { "type": "string" },
+    "street": { "type": "string" }
+  },
+  "required": ["orderNo", "subject", "email"]
+}

@@ -1,0 +1,17 @@
+name: testy
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  powershell:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test bez sieci
+        shell: pwsh
+        run: pwsh -File tests/SelfTest.ps1
+      - name: Demo na fikcyjnych mailach
+        shell: pwsh
+        run: pwsh -File src/MailToContacts.ps1 demo -Out ./out-ci

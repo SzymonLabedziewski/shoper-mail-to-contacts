@@ -1,0 +1,28 @@
+W Twoim sklepie zostało złożone nowe zamówienie, nr 1001
+
+Informacje podstawowe:
+Klient: Jan Kowalski
+E-mail: jan.kowalski@example.com
+Telefon: 500 100 200
+Adres IP: 203.0.113.10
+Przewidywany termin wysyłki:  dni roboczych: 2
+Płatność: Przelew
+Dostawa: Kurier
+Koszt dostawy: 15,00 zł
+Całkowita wartość zamówienia: 80,00 zł
+
+Uwagi klienta:
+
+Dane zamawiającego:
+Jan Kowalski
+00-001 Warszawa
+ul. Przykładowa 1
+
+Dane do wysyłki:
+Jan Kowalski
+00-001 Warszawa
+ul. Przykładowa 1
+
+Zamówione produkty:
+
+PRD-DEMO-001 |  Produkt demonstracyjny | 65,00 zł 1 szt.

@@ -1,0 +1,5 @@
+INBOX
+INBOX.Klienci
+INBOX.Oferty
+INBOX.Sent
+INBOX.Trash

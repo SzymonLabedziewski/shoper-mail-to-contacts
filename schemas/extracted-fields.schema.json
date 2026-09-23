@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/extracted-fields.json",
+  "title": "ExtractedFields",
+  "description": "Fields taken from an email footer. After an LLM pass, every non-empty field MUST be grounded in the source block.",
+  "type": "object",
+  "properties": {
+    "firstname": { "type": "string" },
+    "surname": { "type": "string" },
+    "role": { "type": "string" },
+    "company": { "type": "string" },
+    "street": { "type": "string" },
+    "zip": { "type": "string" },
+    "city": { "type": "string" },
+    "phones": { "type": "array", "items": { "type": "string" } },
+    "emails": { "type": "array", "items": { "type": "string" } },
+    "www": { "type": "string" },
+    "nip": { "type": "string" },
+    "regon": { "type": "string" },
+    "krs": { "type": "string" },
+    "iban": { "type": "string" },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "flags": { "type": "array", "items": { "type": "string" } },
+    "evidence": { "type": "object", "additionalProperties": { "type": "string" } }
+  }
+}

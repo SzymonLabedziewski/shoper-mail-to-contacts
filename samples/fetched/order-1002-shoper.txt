@@ -1,0 +1,29 @@
+W Twoim sklepie zostało złożone nowe zamówienie, nr 1002
+
+Informacje podstawowe:
+Klient: Anna Nowak
+E-mail: anna.nowak@example.com
+Telefon: 22 100 20 30
+Adres IP: 203.0.113.11
+Płatność: Przelew
+Dostawa: Kurier
+Koszt dostawy: 15,00 zł
+Całkowita wartość zamówienia: 120,00 zł
+
+Uwagi klienta:
+
+Dane zamawiającego:
+Anna Nowak
+Example Sp. z o.o., 5252345675
+00-002 Warszawa
+ul. Firmowa 8
+
+Dane do wysyłki:
+Anna Nowak
+Example Sp. z o.o., 5252345675
+00-002 Warszawa
+ul. Firmowa 8
+
+Zamówione produkty:
+
+PRD-DEMO-002 |  Produkt firmowy | 105,00 zł 1 szt.

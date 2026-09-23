@@ -1,0 +1,38 @@
+{
+  "imap": {
+    "host": "s.mail.dcsaas.net",
+    "port": 143,
+    "tls": "starttls",
+    "user": "",
+    "insecureSkipCert": false,
+    "parallelFolders": 3,
+    "markSeen": false,
+    "maxMessagesPerFolder": 0
+  },
+  "self": {
+    "emails": ["sklep@example.com"],
+    "phones": [],
+    "nips": []
+  },
+  "folders": {
+    "include": [],
+    "excludeNameRegex": "(?i)(Sent|Wysłane|Trash|Kosz|Junk|Spam|Drafts|Szkice|Archive|Archiwum|Niechciane|Templates)"
+  },
+  "orders": {
+    "enabled": true,
+    "adapter": "shoper"
+  },
+  "signatures": {
+    "enabled": true,
+    "useOllama": false,
+    "aiConfidenceBelow": 0.45
+  },
+  "ollama": {
+    "url": "http://127.0.0.1:11434",
+    "model": "qwen2.5:3b-instruct-q4_K_M",
+    "recommendedModel": "qwen3:4b-instruct-2507"
+  },
+  "output": {
+    "dir": "./data"
+  }
+}

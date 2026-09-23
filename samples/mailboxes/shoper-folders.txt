@@ -1,0 +1,8 @@
+INBOX
+INBOX.[Shop] Potwierdzenie zamowienia
+INBOX.FIRMY.Example Sp. z o.o.
+INBOX.OSOBY PRYWATNE.Jan Kowalski
+INBOX.Sent
+INBOX.Trash
+INBOX.Junk
+INBOX.Drafts

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/contact.json",
+  "title": "Contact",
+  "description": "Unified person/company card. Different full names must not be merged even if they share an inbox.",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "firstname": { "type": "string" },
+    "surname": { "type": "string" },
+    "personNames": { "type": "array", "items": { "type": "string" } },
+    "emails": { "type": "array", "items": { "type": "string" } },
+    "phones": { "type": "array", "items": { "type": "string" } },
+    "organization": { "type": "string" },
+    "nip": { "type": "string" },
+    "nips": { "type": "array", "items": { "type": "string" } },
+    "companyAliases": { "type": "array", "items": { "type": "string" } },
+    "address": {
+      "type": "object",
+      "properties": {
+        "street": { "type": "string" },
+        "zip": { "type": "string" },
+        "city": { "type": "string" },
+        "country": { "type": "string" },
+        "region": { "type": "string" }
+      }
+    },
+    "orderIds": { "type": "array", "items": { "type": "string" } },
+    "sources": { "type": "array", "items": { "type": "object" } },
+    "mergeFlags": { "type": "array", "items": { "type": "string" } },
+    "notes": { "type": "string", "description": "NIP / Zamowienia / Podpisy lines for clients without a NIP field" }
+  },
+  "required": ["id", "emails"]
+}

@@ -1,0 +1,36 @@
+[
+    {
+        "orderNo":  "1001",
+        "subject":  "Potwierdzenie zamówienia nr: 1001",
+        "folder":  "INBOX",
+        "uid":  "order-1001-shoper",
+        "clientName":  "Jan Kowalski",
+        "personName":  "Jan Kowalski",
+        "firstname":  "Jan",
+        "surname":  "Kowalski",
+        "email":  "jan.kowalski@example.com",
+        "phone":  "500100200",
+        "companyRaw":  "",
+        "nip":  "",
+        "zip":  "00-001",
+        "city":  "Warszawa",
+        "street":  "ul. Przykładowa 1"
+    },
+    {
+        "orderNo":  "1002",
+        "subject":  "Potwierdzenie zamówienia nr: 1002",
+        "folder":  "INBOX",
+        "uid":  "order-1002-shoper",
+        "clientName":  "Anna Nowak",
+        "personName":  "Anna Nowak",
+        "firstname":  "Anna",
+        "surname":  "Nowak",
+        "email":  "anna.nowak@example.com",
+        "phone":  "221002030",
+        "companyRaw":  "Example Sp. z o.o.",
+        "nip":  "5252345675",
+        "zip":  "00-002",
+        "city":  "Warszawa",
+        "street":  "ul. Firmowa 8"
+    }
+]
