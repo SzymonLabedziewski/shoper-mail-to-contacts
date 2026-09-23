@@ -52,4 +52,4 @@ powershell -File .\src\MailToContacts.ps1 demo
 | [AGENTS.md](AGENTS.md) | zasady dla zmian w kodzie |
 | [src/MailToContacts.ps1](src/MailToContacts.ps1) | komendy poza kreatorem |
 
-Licencja MIT: [LICENSE](LICENSE). Prywatność: [PRIVACY.md](PRIVACY.md). Bezpieczeństwo: [SECURITY.md](SECURITY.md).
+Licencja MIT: [LICENSE](LICENSE). Prywatność: [PRIVACY.md](PRIVACY.md).
